@@ -1,0 +1,328 @@
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 200%;
+    margin: 0%;
+}
+h2{
+    margin-bottom: 0%;
+    margin-top: 1%;
+    font-size: xx-large;
+}
+h3{
+    font-size: large;
+}
+ul{
+    list-style-type: none;
+}
+a:link, a:visited{
+	text-decoration: none;
+}
+.links_padrao{
+    text-decoration: none;
+    color: black;
+}
+.links_padrao:hover{
+    color: #2d5c79;
+    font-weight: bolder;
+    text-decoration-line: underline;
+}
+.links_padrao:active{
+    color: black;
+    font-weight: bolder;
+}
+p{
+    text-align: justify;
+}
+.padrao{
+    text-align: center;
+}
+
+
+
+header{
+    margin: 0% 3%;
+    padding: 2% 0% 0% 0%;
+    background-image: url(img/respingos1.jpg);
+    background-repeat: round;
+    display: block;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.cabeçalho{
+    display:flex;
+    justify-content: center;
+
+}
+#logo{
+    margin: 0% 0%;
+}
+div.baner1{
+    display: flex;
+    justify-content: space-evenly;
+}
+ul.baner1{
+    list-style-type:disc;
+}
+li.baner1{
+    font-size: larger;
+}
+
+
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
+}
+
+
+
+.navegacao{
+    text-align: right;  
+    margin: 0%;
+    padding: 0%;
+    background-color: #ffecf7;
+}
+.nav{
+    display: inline;
+    padding: 2%;
+    font-style: italic;
+    font-weight: bolder;
+}
+.link_nav{
+    color: black;
+}
+.link_nav:hover{
+    color: indianred;
+    text-decoration: underline;
+}
+.link_nav:active{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+main{
+    margin: 0%;
+    padding: 0%;
+    background-color: #fbfcfc;
+}
+
+section{
+    background-color: #fbfcfc;
+    margin: 5% 10%;
+    padding: 1% 4%;
+}
+
+.section_1{
+    background-image: url(img/baner2.jpg);
+    background-repeat: repeat-x;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#sec1{
+    padding: 1% 8% 0% 1%;
+}
+button{
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 15px;
+}
+button:active{
+    position: relative;
+    top: 5px;
+    box-shadow:none;
+}
+.botao_orcamento{
+    font-size: x-large;
+    background:#2d5c79;
+    color: #fff;
+    box-shadow:0 5px 0  #012e38;
+    margin: 1% 1% 8% 1%;
+}
+.botao_orcamento:hover{
+    background:#012e38;
+    color: #fff;
+    box-shadow:0 5px 0  #012e38;
+}
+
+.section_2{
+    text-align: center;
+}
+
+.section_3{
+    background-image: url(img/baner2.jpg);
+    background-repeat: round;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#estampa{
+    width: 300px;
+    height: auto;
+    border: #2d5c79;
+    border-style:inset;
+    border-radius: 50%;
+}
+
+
+footer{
+    margin: 0%;
+    padding: 0%;
+}
+.padrao{
+    padding: 0%;
+    font-size: medium;
+}
+
+#rodape{
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(img/respingos1.jpg);
+}
+#contato{
+    text-align: justify;
+}
+#endereco{
+    text-align: center;
+}
+.botao_local{
+    font-size: smaller;
+    background:#5ab9f3;
+    color: #fff;
+    box-shadow:0 5px 0  #0489a7;
+    margin: 1%;
+}
+.botao_local:hover{
+    background:#0489a7;
+    color: #fff;
+    box-shadow:0 5px 0  #0489a7;
+}
+#horario{
+    text-align: center;
+}
+
+#copy{
+    background-color: #d6edfb;
+    color: #fff;
+    text-align: center;
+    font-size: large;
+    padding: 1%;
+}
+
+
+
+.pag_galeria{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    background-color: #f4faff;
+}
+.nav_produtos{
+    margin: 0%;
+    padding: 3%;
+    width: 250px;
+    height: auto;
+    border: dotted rgb(26, 131, 187) ;
+    position:fixed;
+    background-image: url(img/respingos.jpg);
+}
+#navegacao{font-style: italic;
+    color: #234459;
+
+
+}
+#itens_produtos{
+    list-style:disc;
+    padding: 0%;
+}
+.lista_nav{
+    font-size: large;
+}
+
+.sessao_galeria{
+    margin: 1% 1% 1% 20%;
+    padding: 0% 1%;
+    background-color: #f4faff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.galeria{
+    margin: 1% 5% 1% 1%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 200px;
+    padding: 5px;
+    grid-gap: 5px;
+    }
+.item-galeria{
+    position: relative;
+}
+.item-galeria .img-galeria{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.h-1{
+    grid-row: span 1;
+}
+.h-2{
+    grid-row: span 2;
+}
+.w-1{
+    grid-column: span 1;
+}
+.w-2{
+    grid-column: span 2;
+}
+
+
+
+#about{
+    margin: 2%;
+    padding: 0% 15%;
+}
+#sessao_valores{
+    position:relative;
+    margin: 1%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-around;
+}
+#artigo_valores{
+    margin: 0%;
+    padding: 1%;
+}
+#imagem_modelo{
+    margin: 1% 2%;
+    padding: 0%;
+    width: 400px;
+    height: auto;
+}
